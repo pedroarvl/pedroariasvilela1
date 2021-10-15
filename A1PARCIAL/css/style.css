@@ -1,0 +1,267 @@
+
+@import url('fontawesome-free-5.15.4-web/css/all.min.css');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --color1: #ee3131;
+    --color2: #A1E60E;
+    --color3: #FAA228;
+    --color4: #E3197B;
+    --color5: #5487FF;
+    --color-negro: #000000;
+    --color-blanco: #ffffff;
+    --gris-oscuro: #444444;
+    --gris-claro: #dddddd;
+}
+
+body{/* Así se define una regla de estilos para una etiqueta (en este caso body) */
+    margin:0;/* Así se elimina el margen por defecto de body */
+    background-color: var(--color-blanco); 
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+
+#main-header{
+background-color: var(--color-blanco);
+}
+
+.menu{
+
+    
+    list-style: none;/* Elimina la viñeta de la lista */
+
+    /* Elimina el margin y padding por defecto de la lista */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    display: flex;
+}
+
+.menu li a{
+    
+    text-decoration: none;
+    display: block;/* De esta manera el objeto se comporta como estilo en bloque
+    asi los padding no se desbordan */
+}
+
+.menu li{
+    display: inline-block;
+    
+}
+
+.menu-main li a{
+    padding: 25px 15px;
+}
+
+.logo1{
+    margin-top: 12px;
+    width: 160px;
+    height: 50px;
+}
+
+.container{
+    
+    max-width: 1320px;/* Ancho máximo */
+    margin-left: 20px;
+    margin-right: 20px;/* con ambos márgenes en auto son iguales y se ve centrado */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.h3about{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+h3{
+
+    margin-bottom: 20px;
+}
+
+
+.row {
+
+    justify-content: space-between;
+    display: flex;
+    /* margin-left: 35px; */
+    margin-right: -400px;
+}
+
+
+a{
+    color: var(--color-negro);
+    text-decoration: none;/* Elimina el subrayado por defecto del hipervínculo */
+}
+
+a:hover{
+
+    color: #959595;
+    text-decoration: underline;
+
+}
+
+
+header {
+    background-size: 1920px 799px;
+    height: 722px;
+    background-image: url(/img/banner1.jpeg);
+    
+    position: relative;
+}
+
+.padded{
+    margin-left: 100px;
+    /* Así se define una regla para aplicar formato a una clase
+    por su id (empieza con .) */
+    padding-top: 90px;/* Distancia del borde al contenido (margen interno) */
+    padding-bottom: 90px;/* top arriba, bottom abajo   */
+}
+.container1{
+    max-width: 1000px;/* Ancho máximo */
+    margin-left: auto;
+    margin-right: auto;/* con ambos márgenes en auto son iguales y se ve centrado */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row1{
+    display: flex;/* HAce que los objetos que contiene, por defecto estén uno al costado del otro */
+    margin-left: -15px;/* Truco para que eliminar el padding adicional y esté alineado */
+    margin-right: -15px;
+}
+
+.col01{
+
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    
+    flex-basis: 0;
+    flex-grow: 1; 
+
+    box-sizing: border-box; 
+}
+.col{
+
+    margin-bottom: 180px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+   
+    flex-basis: 0;
+    flex-grow: 1;
+
+    box-sizing: border-box;
+}
+
+.col-50{
+  
+    flex-basis: 100%;
+    max-width: 50%;
+    
+}
+
+.h3parte1{
+    margin-top: 70px;
+
+}
+
+.container-2{
+    margin-top: 90px;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row-2{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+.parrafonumero2{
+    text-align: center;
+}
+.titulonumero2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.c4banner{
+    color: #ffffff;
+}
+
+#c4{
+
+    padding: 210px;
+    background-image: url('/img/banner4.png');
+    background-size: cover;
+    
+    background-position: 0 40%;
+}
+
+.padded4{
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+.container4{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 120px;
+}
+
+.elergirnosh3{
+    text-align: center;
+    padding:10px;
+    margin: 10px;
+}
+
+.img-fluid{
+
+    margin-left: 110px;
+    width: 50%;
+    height: auto;
+}
+
+
+.titulo5{
+    
+    margin-left: 280px;
+    text-align: center;
+}
+
+.titulo6{
+    margin-bottom: 100px;
+    margin-left: 280px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
